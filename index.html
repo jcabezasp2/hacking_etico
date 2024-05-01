@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Please Login / CuteNews</title>
+
+    <link href="skins/images/favicon.ico" rel="shortcut icon" type="image/ico" />
+    <link href="libs/css/default.min.css" rel="stylesheet" type="text/css" />
+    <link href="libs/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="skins/custom.css" rel="stylesheet" type="text/css" />
+    <link href="libs/sweet-alert2/sweet-alert2.css" rel="stylesheet" type="text/css" >
+    <link href="libs/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" >
+    <link href="libs/codemirror/lib/codemirror.css" rel="stylesheet" type="text/css" >
+
+    <script src="libs/js/jquery.js"></script>
+    <script src="libs/js/bootstrap.min.js"></script>
+    <script src="libs/bootbox/bootbox.min.js"></script>
+    <script src="libs/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="libs/sweet-alert2/sweet-alert2.min.js"></script>
+    
+    <script src="libs/codemirror/lib/codemirror.js"></script>
+    <script src="libs/codemirror/addon/selection/selection-pointer.js"></script>
+    <script src="libs/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+    <script src="libs/codemirror/mode/xml/xml.js"></script>
+    <script src="libs/codemirror/mode/javascript/javascript.js"></script>
+    <script src="libs/codemirror/mode/css/css.js"></script>
+    <script src="libs/codemirror/mode/vbscript/vbscript.js"></script>
+    
+    <script type="text/javascript" src="skins/cute.js"></script>
+    
+    <script></script>
+    <style type='text/css'></style>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-inverse" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php">CuteNews <small>news management system</small></a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="nav-top-item" href="index.php">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+
+<!--SELF-->
+<!--MAIN area-->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<!--Please Login - 04:09:15 May, 01-->
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--
+<div class="row">
+  <div class="col-xs-12"> -->
+<style>
+    .form-signin {
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    .form-signin .form-signin-heading,
+    .form-signin .checkbox {
+        margin-bottom: 10px;
+    }
+    .form-signin .checkbox {
+        font-weight: normal;
+        margin: -5px 0 15px 0;
+    }
+    .form-signin .form-control {
+        position: relative;
+        height: auto;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .form-signin .form-control:focus {
+        z-index: 2;
+    }
+    .form-signin input[type="text"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .form-signin .field-auth-row {
+        padding: 4px 0;
+    }
+</style>
+
+<section>
+	<div class="container">
+		<form class="form-signin" name="login" id="login_form" action='/CuteNews/index.php' method="post">
+
+            <h2 class="form-signin-heading">Please sign in</h2>
+            <input type="hidden" name="action" value="dologin">
+
+            <div class="field-auth-row">
+                <label for="login_username" class="sr-only">User:</label>
+                <input type="text" id="login_username" class="form-control" name="username" placeholder="User" value="" required autofocus>
+            </div>
+
+            <div class="field-auth-row">
+                <label for="login_password" class="sr-only">Password</label>
+                <input type="password" id="login_password" class="form-control" placeholder="Password" name="password" required>
+            </div>
+
+            <div class="checkbox">
+                <label for=rememberme title="Remember me for 30 days, do not use on Public terminals!">
+                    <input id="rememberme" type="checkbox" value="yes"  name="rememberme"> Remember me
+                </label>
+            </div>
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                            <a class="btn btn-lg btn-primary btn-block" href="?register">Register</a>
+            
+            <br/>
+            <div style="text-align: center">
+                <a href="?register&lostpass">(lost password)</a>
+            </div>
+		</form>
+	</div> <!-- /container -->
+
+</section>	<!--/div>
+</div-->
+	
+<!--FIN MAIN area-->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center" style="padding: 0 0 16px 0">
+                <!-- Execution time: 0.001 -->
+                <div style="font-size: 9px">Powered by <a style="font-size: 9px" href="http://cutephp.com/cutenews/" target="_blank">CuteNews 2.1.2</a> &copy; 2002&ndash;2024 <a style="font-size: 9px" href="http://cutephp.com/" target="_blank">CutePHP</a>.<br>(unregistered)</div>
+			</div>
+		</div>
+	</div>
+</section>
+</body></html>
